@@ -1,0 +1,7 @@
+- hosts: test
+  remote_user: root
+  
+  tasks:
+    - name: print date
+      shell: date >> /tmp/ansible-pull.log
+      
