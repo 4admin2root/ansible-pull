@@ -1,3 +1,6 @@
 [test]
 localhost
 badone
+[test2]
+master
+master2
